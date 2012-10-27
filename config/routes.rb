@@ -1,4 +1,6 @@
 RafaelFinancas::Application.routes.draw do
+  resources :accounts
+
   get "pages/home"
 
   # The priority is based upon order of creation:
